@@ -1,0 +1,5 @@
+Explanation: disable xenial packages by default
+Package: *
+Pin: release n=xenial
+Pin-priority: -1
+

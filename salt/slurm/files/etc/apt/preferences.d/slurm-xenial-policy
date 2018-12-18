@@ -1,0 +1,5 @@
+Explanation: Grab Slurm from xenial
+Package: slurm-llnl libpam-slurm globus-gram-job-manager-slurm libslurm-dev libslurm-perl libslurm29 libslurmdb-dev libslurmdb-perl libslurmdb29 libslurmdb29-dbg slurm-client slurm-client-dbg slurm-client-emulator slurm-drmaa-dev slurm-drmaa1 slurm-llnl slurm-llnl-slurmdbd slurm-wlm slurm-wlm-basic-plugins slurm-wlm-basic-plugins-dbg slurm-wlm-basic-plugins-dev slurm-wlm-doc slurm-wlm-emulator slurm-wlm-torque slurmctld slurmctld-dbg slurmd slurmd-dbg slurmdbd slurmdbd-dbg
+Pin: release n=xenial
+Pin-priority: 500
+

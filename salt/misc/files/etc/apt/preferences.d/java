@@ -1,0 +1,15 @@
+Explanation: Disable CSG auto-install
+Package: oracle-java6-jdk
+Pin: version *
+Pin-Priority: -1
+
+Explanation: Disable CSG auto-install
+Package: oracle-java7-jdk
+Pin: version *
+Pin-Priority: -1
+
+Explanation: Disable CSG auto-install
+Package: oracle-java8-jdk
+Pin: version *
+Pin-Priority: -1
+

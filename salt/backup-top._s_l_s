@@ -1,0 +1,12 @@
+base:
+  '*':
+    - salt
+    - munin
+    - misc
+  # apply salt formula to all minions but biomedia04
+  '^(?!biomedia04).*':
+    - match: pcre
+    - slurm
+  # ceph only concerns rocs machines
+  'roc*':
+    - ceph

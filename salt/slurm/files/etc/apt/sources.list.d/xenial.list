@@ -1,0 +1,2 @@
+deb file://vol/biomedic2/ubuntu-packages/slurm ./
+deb http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
