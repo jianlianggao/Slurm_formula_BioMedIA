@@ -35,11 +35,6 @@ slurm:
           mem: 118000
           cores: 64
       {% endfor %}
-      {% for N in range(4,17) %}
-        roc{{ "%02d" % N }}:
-          mem: 243000
-          cores: 32
-      {% endfor %}
 
 
     interactive:
@@ -52,6 +47,14 @@ slurm:
           mem: 243000
           cores: 32
         {% endfor %}
+
+    rocs:
+      cpus:
+      {% for N in range(4,17) %}
+        roc{{ "%02d" % N }}:
+          mem: 243000
+          cores: 32
+      {% endfor %}
 
 
   gres:
